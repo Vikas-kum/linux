@@ -24,6 +24,8 @@ struct sockaddr_in {
     struct in_addr     sin_addr;    // Internet address
     unsigned char      sin_zero[8]; // Same size as struct sockaddr
 };
+
+getaddrinfo(hostnae,port, st addrinfo *hints, st addrinfo *res)
 */
 int main(int argc, char **argv){
     struct addrinfo hints, *res, *p;
